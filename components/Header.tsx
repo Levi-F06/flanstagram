@@ -1,16 +1,16 @@
 export function Header() {
 
   const TITLE_CLASS =
-    "font-logo text-6xl shadow-1 cursor-pointer"
+    "font-logo text-4xl md:text-6xl shadow-1 cursor-pointer"
   const DIV_CLASS = 
-    "group shadow-2 m-2 text-center text-xl cursor-pointer"
+    "group shadow-2 m-2 text-center text-m md:text-xl cursor-pointer"
   const ICON_CLASS = 
-    "size-16 stroke-coral transition-stroke duration-100 group-active:stroke-0"
+    "size-12 md:size-16 stroke-coral transition-stroke duration-100 group-active:stroke-0"
   const H2_CLASS = 
-    "transition-opacity duration-200 ease-in opacity-0 group-hover:opacity-100"
+    "transition-opacity duration-200 ease-in md:opacity-0 md:group-hover:opacity-100"
 
   return (
-    <header class="flex justify-between align-middle w-full p-3">
+    <header class="flex justify-between align-middle w-screen p-1 md:p-3">
       <a href="/sign-in" class={DIV_CLASS}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#F9F9F1" class={ICON_CLASS}>
           <path fillRule="evenodd" d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" clipRule="evenodd" />

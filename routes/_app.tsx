@@ -8,7 +8,7 @@ export default function App({ Component }: PageProps) {
         <title>flanstagram</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
-      <body class="bg-black text-white h-full">
+      <body class="bg-black text-white h-full w-full overflow-hidden">
         <Component />
       </body>
     </html>
