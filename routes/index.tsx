@@ -1,10 +1,11 @@
 import { Header } from "../components/Header.tsx";
+import Feed from "../islands/Feed.tsx";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <h1>Home page</h1>
+      <Feed />
     </>
   );
 }
